@@ -45,6 +45,12 @@
   /* Dimensions */
   width: 312px;
   height: 80px;
+  /* Display Settings */
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  /* Text Settings */
+  font-size: 52px;
 }
 
 /* Clear Styling */
