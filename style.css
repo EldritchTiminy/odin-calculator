@@ -1,4 +1,95 @@
+/* Universal Styling */
 * {
   padding: 0;
   margin: 0;
+}
+
+/* Body Div Styling */
+.body {
+  /* Colors */
+  background-color: rgb(230 240 250);
+  /* Display Settings */
+  display: flex;
+  justify-content: center;
+  /* Dimensions */
+  min-height: 100vh;
+}
+
+/* Board Div Styling */
+.board {
+  /* Colors */
+  background-color: rgb(200 200 200);
+  /* Dimensions */
+  Margin: 40px;
+  width: 40%;
+  min-height: 280px;
+  max-height: 800px;
+  /* Display Settings */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Display Section Styling */
+.display {
+  /* Display Settings */
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+/* Screen Styling */
+.screen {
+  /* Colors */
+  background-color: white;
+  /* Dimensions */
+  width: 312px;
+  height: 80px;
+}
+
+/* Keys Section Styling */
+.keys {
+  /* Display Settings */
+  display: flex;
+}
+
+/* Buttons Section Common Styling */
+.numbers,
+.operators {
+  /* Display Settings */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Numbers Section Styling */
+.numbers {
+  /* Dimensions */
+  width: 240px;
+  height: 320px;
+}
+
+/* Operators Section Styling */
+.operators {
+  /* Dimensions */
+  width: 80px;
+  height: 320px;
+}
+
+/* Button Div Styling */
+.button {
+  /* Colors */
+  background-color: rgb(100 100 100);
+  color: rgb(240 230 240);
+  /* Dimensions */
+  width: 72px;
+  height: 72px;
+  margin: 4px;
+  /* Display Settings */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Text Settings */
+  font-size: 52px;
 }
