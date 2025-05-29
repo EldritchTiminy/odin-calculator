@@ -20,10 +20,9 @@
   /* Colors */
   background-color: rgb(200 200 200);
   /* Dimensions */
-  Margin: 40px;
+  margin: 40px;
   width: 40%;
-  min-height: 280px;
-  max-height: 800px;
+  height: 540px;
   /* Display Settings */
   display: flex;
   flex-direction: column;
@@ -46,6 +45,19 @@
   /* Dimensions */
   width: 312px;
   height: 80px;
+}
+
+/* Clear Styling */
+.clr {
+  /* Colors */
+  background-color: rgb(250 50 50);
+  /* Dimensions */
+  width: 72px;
+  height: 36px;
+  /* Display Settings */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Keys Section Styling */
