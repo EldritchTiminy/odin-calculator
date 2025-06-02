@@ -124,8 +124,9 @@ function operate () {
     default:
       console.log("Error: Switch Operator");
   };
+  let rounded = Math.round(result * 1000) / 1000;
   reset();
-  printResult(result);
+  printResult(rounded);
 };
 
 for (let button of document.querySelectorAll('.button')) {
